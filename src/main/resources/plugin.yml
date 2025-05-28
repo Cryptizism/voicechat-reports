@@ -1,0 +1,9 @@
+name: voicechat-reports
+version: '1.0-SNAPSHOT'
+main: dev.crypts.voicechatReports.VoicechatReports
+api-version: '1.21'
+depend: [ voicechat ]
+commands:
+  save-to-file:
+    description: Saves to file
+    usage: /save-to-file <filename>
